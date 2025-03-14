@@ -6,9 +6,9 @@
   const handleClickOutsideMenu = () => (isMenuOpen = false);
 </script>
 
-<div class="about-container" use:clickOutside onoutsideclick={handleClickOutsideMenu}>
+<div class="about-container h-full" use:clickOutside onoutsideclick={handleClickOutsideMenu}>
   <button
-    class="navbar-menu-button flex cursor-pointer items-center"
+    class="navbar-menu-button flex h-full cursor-pointer items-center justify-center"
     type="button"
     onclick={() => (isMenuOpen = !isMenuOpen)}
     >О проекте
@@ -58,7 +58,7 @@
 
   .about-menu {
     position: absolute;
-    top: 100%;
+    top: 90%;
     right: 0%;
     display: flex;
     flex-direction: column;

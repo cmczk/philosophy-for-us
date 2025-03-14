@@ -7,15 +7,17 @@
 </script>
 
 <div class="page">
-  <header class="header h-[70px] py-5">
-    <nav class="header-navbar flex items-center justify-between">
+  <header class="header h-[70px]">
+    <nav class="header-navbar flex h-full items-center justify-between">
       <a class="header-logo" href="/">Philosophy for Us</a>
-      <ul class="navbar-menu-list flex items-center justify-between gap-x-10">
-        <li><a class="navbar-menu-link" href="#top">Статьи</a></li>
-        <li><a class="navbar-menu-link" href="#top">Переводы</a></li>
-        <li><a class="navbar-menu-link" href="#top">Конспекты</a></li>
-        <li><a class="navbar-menu-link" href="/flashcards">Карточки</a></li>
-        <li class="relative">
+      <ul class="navbar-menu-list flex h-full items-center justify-between gap-x-10">
+        <li class="navbar-menu-item"><a class="navbar-menu-link" href="#top">Статьи</a></li>
+        <li class="navbar-menu-item"><a class="navbar-menu-link" href="#top">Переводы</a></li>
+        <li class="navbar-menu-item"><a class="navbar-menu-link" href="#top">Конспекты</a></li>
+        <li class="navbar-menu-item">
+          <a class="navbar-menu-link" href="/flashcards">Карточки</a>
+        </li>
+        <li class="navbar-menu-item relative">
           <DropdownMenu />
         </li>
       </ul>
