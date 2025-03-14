@@ -28,9 +28,9 @@
   <main class="main">
     {@render children()}
   </main>
-  <footer class="footer">
+  <footer class="footer flex h-[70px] items-center justify-center">
     <div class="flex items-center justify-center">
-      <p>Philosophy for Us</p>
+      <p>&#169; 2025 Philosophy for Us</p>
     </div>
   </footer>
 </div>
