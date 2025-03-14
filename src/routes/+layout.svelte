@@ -8,12 +8,13 @@
 <div class="page">
   <header class="header h-[70px] px-10 py-5">
     <nav class="header-navbar flex items-center justify-between">
-      <a class="header-logo" href="#top">Philosophy for Us</a>
+      <a class="header-logo" href="/">Philosophy for Us</a>
       <ul class="navbar-menu-list flex items-center justify-between gap-x-10">
         <li><a href="#top">Статьи</a></li>
         <li><a href="#top">Переводы</a></li>
         <li><a href="#top">Конспекты</a></li>
-        <li><a href="#top">Карточки</a></li>
+        <li><a href="/flashcards">Карточки</a></li>
+        <li><button class="navbar-menu-button cursor-pointer" type="button">О проекте</button></li>
       </ul>
       <ul class="header-navbar-contacts flex items-center justify-between gap-x-5">
         <li><a href="#top">Telegram</a></li>
