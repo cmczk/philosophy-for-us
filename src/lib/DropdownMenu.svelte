@@ -15,7 +15,7 @@
     onoutsideclick={handleClickOutsideMenu}
     >О проекте
     <svg
-      class="pt-0.5 transition-all duration-300 {isMenuOpen ? '-rotate-180' : 'rotate-0'}"
+      class="pt-0.5 transition-transform duration-300 {isMenuOpen ? '-rotate-180' : 'rotate-0'}"
       width="20"
       height="20"
       viewBox="0 0 24 24"

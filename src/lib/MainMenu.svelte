@@ -24,9 +24,9 @@
   </button>
 
   <ul
-    class="navbar-menu-list absolute flex h-0 w-0 flex-col items-start justify-start overflow-hidden transition-all duration-300 {isMenuOpen
-      ? 'top-full right-0 h-auto w-50'
-      : ''}"
+    class="navbar-menu-list absolute top-full right-0 h-auto w-50 transition-opacity duration-300 {isMenuOpen
+      ? 'pointer-events-auto opacity-100'
+      : 'pointer-events-none opacity-0'}"
   >
     <li class="navbar-menu-item"><a class="navbar-menu-link" href="#top">Статьи</a></li>
     <li class="navbar-menu-item"><a class="navbar-menu-link" href="#top">Переводы</a></li>
