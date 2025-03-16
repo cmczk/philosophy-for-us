@@ -6,11 +6,13 @@
   const handleClickOutsideMenu = () => (isMenuOpen = false);
 </script>
 
-<div class="about-container h-full" use:clickOutside onoutsideclick={handleClickOutsideMenu}>
+<div class="about-container h-full">
   <button
     class="navbar-menu-button flex h-full cursor-pointer items-center justify-center"
     type="button"
     onclick={() => (isMenuOpen = !isMenuOpen)}
+    use:clickOutside
+    onoutsideclick={handleClickOutsideMenu}
     >О проекте
     <svg
       class="pt-0.5 transition-all duration-300 {isMenuOpen ? '-rotate-180' : 'rotate-0'}"
