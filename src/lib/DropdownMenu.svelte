@@ -33,21 +33,19 @@
 
   <ul
     class="about-menu transition-opacity duration-300 {isMenuOpen
-      ? 'pointer-events-auto bg-slate-100 opacity-100'
+      ? 'pointer-events-auto bg-[gainsboro] opacity-100'
       : 'pointer-events-none opacity-0'}"
   >
     <li>
-      <a class="about-menu-link hover:bg-slate-400 hover:text-white" href="/about/about-us"
-        >Кто мы?</a
-      >
+      <a class="about-menu-link hover:bg-[aliceblue]" href="/about/about-us">Кто мы?</a>
     </li>
     <li>
-      <a class="about-menu-link hover:bg-slate-400 hover:text-white" href="/about/how-to-join"
+      <a class="about-menu-link hover:bg-[aliceblue]" href="/about/how-to-join"
         >Как присоединиться?</a
       >
     </li>
     <li>
-      <a class="about-menu-link hover:bg-slate-400 hover:text-white" href="/about/rules">Правила</a>
+      <a class="about-menu-link hover:bg-[aliceblue]" href="/about/rules">Правила</a>
     </li>
   </ul>
 </div>
@@ -71,7 +69,9 @@
   .about-menu-link {
     display: block;
     white-space: nowrap;
-    padding: 20px;
+    padding-block: 7%;
+    padding-inline: 10%;
+    font-size: 18px;
   }
 
   .navbar-menu-button:hover {

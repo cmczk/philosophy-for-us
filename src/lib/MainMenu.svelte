@@ -28,7 +28,7 @@
     </button>
 
     <ul
-      class="navbar-menu-list absolute top-full right-0 h-auto w-50 transition-opacity duration-300 {isMainMenuOpen
+      class="navbar-menu-list absolute top-full right-0 h-auto w-60 transition-opacity duration-300 {isMainMenuOpen
         ? 'pointer-events-auto opacity-100'
         : 'pointer-events-none opacity-0'}"
     >
@@ -44,7 +44,6 @@
           type="button"
           onclick={() => (isAboutMenuOpen = !isAboutMenuOpen)}
           >О проекте
-
           <svg
             class="transition-transform duration-300 {isAboutMenuOpen ? '-rotate-180' : 'rotate-0'}"
             width="20"
@@ -61,6 +60,19 @@
             />
           </svg>
         </button>
+        <ul
+          class="menu-about-list absolute top-full left-0 h-0 w-0 bg-[gainsboro] opacity-0 transition-all duration-300 {isAboutMenuOpen
+            ? 'h-auto w-full opacity-100'
+            : ''}"
+        >
+          <li class="about-menu-item"><a class="about-menu-link" href="#top">Кто мы?</a></li>
+          <li class="about-menu-item">
+            <a class="about-menu-link" href="/about/how-to-join">Как присоединиться?</a>
+          </li>
+          <li class="about-menu-item">
+            <a class="about-menu-link" href="/about/rules">Правила</a>
+          </li>
+        </ul>
       </li>
     </ul>
   </div>
@@ -86,12 +98,20 @@
   }
 
   .navbar-menu-link:hover,
-  .navbar-menu-about-button:hover {
+  .navbar-menu-about-button:hover,
+  .about-menu-link:hover {
     background-color: aliceblue;
   }
 
   .navbar-menu-about-button {
     text-transform: uppercase;
+  }
+
+  .about-menu-link {
+    display: block;
+    padding-block: 7%;
+    padding-left: 10%;
+    font-size: 18px;
   }
 
   @media (max-width: 975px) {
