@@ -15,5 +15,8 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    @media (max-width: 1450px) {
+      justify-content: center;
+    }
   }
 </style>
