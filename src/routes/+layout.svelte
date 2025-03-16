@@ -61,8 +61,8 @@
           </a>
         </li>
       </ul>
-      <MainMenu />
     </nav>
+    <MainMenu />
   </header>
   <main class="main">
     {@render children()}
@@ -112,8 +112,7 @@
   }
 
   @media (max-width: 975px) {
-    .navbar-menu-list,
-    .header-navbar-contacts {
+    .header-navbar {
       display: none;
     }
   }
