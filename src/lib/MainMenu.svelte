@@ -1,4 +1,5 @@
 <script>
+  import DropdownMenu from "./DropdownMenu.svelte";
   import { clickOutside } from "./scripts/click-outside";
 
   let isMenuOpen = $state(false);
@@ -34,15 +35,13 @@
     <li class="navbar-menu-item">
       <a class="navbar-menu-link" href="/flashcards">Карточки</a>
     </li>
-    <!-- <li class="navbar-menu-item relative">
-    <DropdownMenu />
-  </li> -->
+    <li class="navbar-menu-item relative"></li>
   </ul>
 </div>
 
 <style>
   .navbar-menu-list {
-    background-color: gray;
+    background-color: gainsboro;
   }
 
   .navbar-menu-item,
@@ -55,10 +54,11 @@
   .navbar-menu-link {
     padding-block: 7%;
     padding-inline: 20%;
+    text-transform: uppercase;
   }
 
   .navbar-menu-link:hover {
-    background-color: darkred;
+    background-color: aliceblue;
   }
 
   @media (max-width: 975px) {

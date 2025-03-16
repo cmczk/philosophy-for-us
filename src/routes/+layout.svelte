@@ -92,7 +92,6 @@
     max-width: 1200px;
     padding-inline: clamp(22px, 5%, 44px);
     margin-inline: auto;
-    border-bottom: 1px solid black;
   }
 
   .navbar-menu-item {
