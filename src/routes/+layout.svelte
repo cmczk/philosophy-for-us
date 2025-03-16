@@ -78,7 +78,7 @@
   .page {
     display: flex;
     flex-direction: column;
-    height: 100vh;
+    min-height: 100vh;
   }
 
   .main {
@@ -91,7 +91,7 @@
     width: 100%;
     max-width: 1200px;
     padding-inline: clamp(22px, 5%, 44px);
-    margin: 0 auto;
+    margin-inline: auto;
     border-bottom: 1px solid black;
   }
 

@@ -8,8 +8,6 @@
   <Flashcard />
   <Flashcard />
   <Flashcard />
-  <Flashcard />
-  <Flashcard />
 </div>
 
 <style>
