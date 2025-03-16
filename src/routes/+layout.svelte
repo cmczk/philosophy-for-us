@@ -1,8 +1,9 @@
 <script>
   import "../app.css";
   import DropdownMenu from "$lib/DropdownMenu.svelte";
-  let { children } = $props();
+  import MainMenu from "$lib/MainMenu.svelte";
 
+  let { children } = $props();
   let isMenuOpen = $state(false);
 </script>
 
@@ -60,6 +61,7 @@
           </a>
         </li>
       </ul>
+      <MainMenu />
     </nav>
   </header>
   <main class="main">
@@ -88,7 +90,9 @@
   .header {
     width: 100%;
     max-width: 1200px;
+    padding-inline: clamp(22px, 5%, 44px);
     margin: 0 auto;
+    border-bottom: 1px solid black;
   }
 
   .navbar-menu-item {
@@ -102,5 +106,16 @@
     height: 100%;
     text-transform: uppercase;
     font-weight: 700;
+  }
+
+  .navbar-menu-link:hover {
+    color: #5f506b;
+  }
+
+  @media (max-width: 975px) {
+    .navbar-menu-list,
+    .header-navbar-contacts {
+      display: none;
+    }
   }
 </style>

@@ -71,4 +71,8 @@
     white-space: nowrap;
     padding: 20px;
   }
+
+  .navbar-menu-button:hover {
+    color: #5f506b;
+  }
 </style>
