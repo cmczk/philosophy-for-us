@@ -8,7 +8,7 @@
 </script>
 
 <div class="page">
-  <header class="header h-[70px]">
+  <header class="header mb-3 h-[70px]">
     <nav class="header-navbar flex h-full items-center justify-between">
       <a class="header-logo" href="/">Philosophy for Us</a>
       <ul class="navbar-menu-list flex h-full items-center justify-between gap-x-10">
@@ -67,7 +67,7 @@
   <main class="main">
     {@render children()}
   </main>
-  <footer class="footer flex h-[70px] items-center justify-center">
+  <footer class="footer mt-3 flex h-[70px] items-center justify-center">
     <div class="flex items-center justify-center">
       <p>&#169; 2025 Philosophy for Us</p>
     </div>
