@@ -15,6 +15,7 @@
         <li class="navbar-menu-item"><a class="navbar-menu-link" href="#top">Статьи</a></li>
         <li class="navbar-menu-item"><a class="navbar-menu-link" href="#top">Переводы</a></li>
         <li class="navbar-menu-item"><a class="navbar-menu-link" href="#top">Конспекты</a></li>
+        <li class="navbar-menu-item"><a class="navbar-menu-link" href="#top">Заметки</a></li>
         <li class="navbar-menu-item">
           <a class="navbar-menu-link" href="/flashcards">Карточки</a>
         </li>
