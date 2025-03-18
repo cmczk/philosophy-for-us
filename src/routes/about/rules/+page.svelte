@@ -1,7 +1,7 @@
 <h1>Правила платформы Philosophy for Us</h1>
 
 <section class="how-to-write-section">
-  <div class="how-to-write-section-title">
+  <div class=" header-2 how-to-write-section-title">
     <h2>Как писать материалы?</h2>
   </div>
 
@@ -40,7 +40,7 @@
 </section>
 
 <section class="license-section">
-  <div class="license-section-title">
+  <div class="header-2 license-section-title">
     <h2>Лицензии</h2>
   </div>
 
